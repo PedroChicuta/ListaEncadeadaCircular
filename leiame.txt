@@ -1,0 +1,16 @@
+Nomes dos alunos:Marina Medeiros, Matheus Alexandre, Pedro Roberto 
+
+Site de consulta: https://www.geeksforgeeks.org/circular-linked-list-in-python/
+
+Segue a implementação do miniprojeto proposto: Trata-se de uma lista circular 
+implementada utilizar listas encadeadas o arquivo Membro é um node da lista 
+encadeada e o arquivo listaEncadeadaCircular é a própria estrutura de dados, por 
+fim o artigo main é a aplicação que testa e utiliza a estrutura construida.
+O arquivo listaEncadeadaCircular possui 5 métodos(fora o construtor): 
+adicionar_membro, proximo_responsavel, remover_membro,mostrarLista e o is_empty.
+o método proximo_responsavel e o is_empty são O(1), o primeiro só realiza a operação
+getNext() da classe Membro e troca o valor do apontador pelo próximo valor que está
+armazenado e o is_empty() checa se o head da Lista encadeada aponta para alguém. por
+outro lado todas as outras operações são O(n) já que em todas há a necessidade de
+percorrer a lista. As operações adicionar_membro e remover_membro pode ser O(1) apenas
+quando a,bas operações ocorrem no head da lista encadeada circular. 
